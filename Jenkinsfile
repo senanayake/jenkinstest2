@@ -9,11 +9,6 @@ pipeline {
         }
         stage('maven version') {
             steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
                 sh "mvn -v"
             }
         }
