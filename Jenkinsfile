@@ -7,10 +7,5 @@ pipeline {
                sh "git version"
             }
         }
-        stage('maven version') {
-            steps {
-                sh "mvn -v"
-            }
-        }
     }
 }
